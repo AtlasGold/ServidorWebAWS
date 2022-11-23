@@ -4,7 +4,7 @@ apt install apache2 -y
 
 echo 'Getting the file'
 wget -O /tmp/main.zip https://github.com/AtlasGold/ServidorWebAWS/archive/refs/heads/main.zip
-cd /temp/
+cd /tmp/
 unzip main.zip
 rm main.zip
 
